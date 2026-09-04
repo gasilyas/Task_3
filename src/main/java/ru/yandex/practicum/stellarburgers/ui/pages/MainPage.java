@@ -24,7 +24,7 @@ public class MainPage {
 
     public MainPage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(3));
     }
 
     @Step("Нажать на кнопку 'Войти в аккаунт' на главной странице")

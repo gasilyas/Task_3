@@ -13,7 +13,7 @@ public class RestorePasswordPage {
     private final By loginLink = By.xpath("//p[contains(text(), 'Вспомнили пароль')]/a[text()='Войти']");
 
     public RestorePasswordPage(WebDriver driver) {
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(3));
     }
 
     @Step("Кликнуть по ссылке 'Войти' на странице восстановления пароля")

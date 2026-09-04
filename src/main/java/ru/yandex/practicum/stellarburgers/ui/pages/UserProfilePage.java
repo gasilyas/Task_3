@@ -15,7 +15,7 @@ public class UserProfilePage {
     private final By stellarBurgersLogo = By.cssSelector("div[class*='header__logo'] a[href='/']");
 
     public UserProfilePage(WebDriver driver) {
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(3));
     }
 
     @Step("Нажать кнопку 'Выйти' в личном кабинете")

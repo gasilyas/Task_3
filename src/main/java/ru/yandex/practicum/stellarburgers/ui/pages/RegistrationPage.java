@@ -21,7 +21,7 @@ public class RegistrationPage {
 
     public RegistrationPage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(3));
     }
 
     @Step("Заполнить форму регистрации: Имя={name}, Email={email}, Пароль={password}")
