@@ -18,6 +18,7 @@ public class BurgerConstructorTest extends BasicSeleniumTestConfiguration {
     @Test
     @DisplayName("Проверка переключения вкладок. Вкладка Булки в конструкторе бургеров")
     public void testBurgerAssemblerTabBunsSwitch() {
+
         mainPage.clickSaucesTab();
         mainPage.clickBunsTab();
         Assertions.assertTrue(mainPage.checkBunsTabActive(), "Вкладка 'Булки' не стала активной после переключения");
